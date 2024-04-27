@@ -30,6 +30,7 @@ const Sidebar = () => {
                 alt={link.label}
                 width = {24}
                 height = {24}
+                className='border-red-400'
               />
               <p className='text-lg font-semibold max-lg:hidden'>
                 {link.label}
